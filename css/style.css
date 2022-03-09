@@ -78,6 +78,10 @@ p {
     color: #333;
 }
 
+.clr {
+    clear: both;
+}
+
 /* Navbar */
 #navbar {
     background-color: #333;
@@ -160,4 +164,25 @@ p {
 
 #home-info .info-content p {
     padding-bottom: 30px;
+}
+
+/* Features section */
+/* Did not use "#features .box" as we might want to use box as utility class */
+.box {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 50px;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+/* Footer section */
+#main-footer {
+    background: #444;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
