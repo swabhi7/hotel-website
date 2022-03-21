@@ -96,6 +96,7 @@ p {
 
 .l-heading {
     font-size: 40px;
+    line-height: 1.2;
 }
 
 /* Navbar */
@@ -160,7 +161,7 @@ p {
 
 /* home-info section */
 #home-info {
-    height: 400px;
+    height: 450px;
 }
 
 #home-info .info-img {
